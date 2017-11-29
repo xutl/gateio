@@ -1,0 +1,28 @@
+{
+  "name": "xutl/gateio",
+  "description": "The package for gate.io",
+  "keywords": [
+    "gate",
+    "gate.io",
+    "gate.io sdk",
+    "guzzle",
+    "guzzlehttp"
+  ],
+  "type": "library",
+  "license": "MIT",
+  "require": {
+    "php": ">=5.5.0",
+    "guzzlehttp/guzzle": "~6.0",
+    "guzzlehttp/psr7": "~1.1"
+  },
+  "autoload": {
+    "psr-4": {
+      "xutl\\gateio\\": ""
+    }
+  },
+  "extra": {
+    "branch-alias": {
+      "dev-master": "1.0.x-dev"
+    }
+  }
+}
